@@ -17,3 +17,12 @@ body {
 }
 
 .button4 {border-radius: 12px;}
+
+//CSS
+.visibledevice {display:none;}
+.visibledesktop {display:display;}
+
+@media (max-width : 320px) {
+    .visibledevice {display:block;}
+    .visibledesktop {display:none;}
+}
